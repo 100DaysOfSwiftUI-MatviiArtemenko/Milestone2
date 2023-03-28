@@ -15,7 +15,8 @@ struct ScoreView: View {
     
     var body: some View {
         ZStack {
-            Color(red: 51/255, green: 51/255, blue: 51/255)                .ignoresSafeArea()
+            Color(red: 51/255, green: 51/255, blue: 51/255)
+                .ignoresSafeArea()
             VStack {
                 Spacer()
                 
